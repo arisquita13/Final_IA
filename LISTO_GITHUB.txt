@@ -1,0 +1,103 @@
+✅ TU PROYECTO ESTÁ LISTO PARA GITHUB
+
+════════════════════════════════════════════════════════════════════════════
+
+📁 ARCHIVOS PRINCIPALES (Se subirán a GitHub)
+════════════════════════════════════════════════════════════════════════════
+
+✅ app_tkinter.py                  → Aplicación principal con interfaz Tkinter
+✅ pdf_extractor.py                → Módulo para extraer texto de PDFs  
+✅ question_generator.py           → Generador de preguntas con Google Gemini
+✅ generar_informe.py              → Script para generar informe PDF
+✅ requirements.txt                → Lista de dependencias Python
+✅ .gitignore                      → Archivos a ignorar en Git
+✅ README_GITHUB.md                → Documentación profesional para GitHub
+✅ GUIA_GITHUB.md                  → Guía paso a paso para subir a GitHub
+
+════════════════════════════════════════════════════════════════════════════
+
+⚠️ ARCHIVOS IGNORADOS (NO se subirán - Seguridad)
+════════════════════════════════════════════════════════════════════════════
+
+❌ .env                            → Contiene tu API key (confidencial)
+❌ __pycache__/                    → Archivos compilados Python
+❌ logs/                           → Archivos generados durante ejecución
+❌ Informe_Desarrollo_Proyecto.pdf → Archivo PDF generado
+
+════════════════════════════════════════════════════════════════════════════
+
+🚀 PASOS PARA SUBIR A GITHUB (Resumen Rápido)
+════════════════════════════════════════════════════════════════════════════
+
+1. Crear repo en GitHub:
+   • Ve a github.com → "+" → "New repository"
+   • Nombre: "generador-preguntas-pdf"
+   • Descripción: "Generador de preguntas desde PDF con IA (Google Gemini)"
+   • Público
+   • NO inicializar con README
+
+2. Desde PowerShell en tu carpeta:
+   
+   git init
+   git config --global user.name "Tu Nombre"
+   git config --global user.email "tu-email@gmail.com"
+   git add .
+   git commit -m "Initial commit: Generador de preguntas desde PDF con Tkinter e IA"
+   git branch -M main
+   git remote add origin https://github.com/TU_USUARIO/generador-preguntas-pdf.git
+   git push -u origin main
+
+3. Si pide autenticación: usa tu email y un Personal Access Token (no contraseña)
+
+════════════════════════════════════════════════════════════════════════════
+
+📋 .gitignore CONFIGURADO CON:
+════════════════════════════════════════════════════════════════════════════
+
+✓ Variables de entorno (.env, API keys)
+✓ Caché de Python (__pycache__, *.pyc)
+✓ Ambientes virtuales (venv/, env/)
+✓ IDEs (.vscode/, .idea/)
+✓ Archivos generados (logs/, *.log)
+✓ PDFs temporales
+✓ Archivos del sistema (Thumbs.db, .DS_Store)
+
+════════════════════════════════════════════════════════════════════════════
+
+💡 TIPS IMPORTANTES
+════════════════════════════════════════════════════════════════════════════
+
+✅ ANTES DE HACER GIT PUSH:
+   • Verifica que .env NO esté incluido: git status
+   • Si ves .env en los cambios, NO hagas push
+   • GitHub mismo te avisará si intentas subir secretos
+
+✅ PARA FUTUROS CAMBIOS:
+   git status                    # Ver qué cambió
+   git add .                     # Agregar cambios
+   git commit -m "Tu mensaje"    # Hacer commit
+   git push                      # Subir a GitHub
+
+✅ CREDENCIALES:
+   • NO uses contraseña de GitHub
+   • Genera Personal Access Token en: Settings → Developer settings → Tokens
+   • Úsalo como contraseña en git push
+
+════════════════════════════════════════════════════════════════════════════
+
+🎯 URL FINAL
+════════════════════════════════════════════════════════════════════════════
+
+Después de subir, tu proyecto estará en:
+
+https://github.com/TU_USUARIO/generador-preguntas-pdf
+
+Reemplaza TU_USUARIO con tu nombre de usuario de GitHub
+
+════════════════════════════════════════════════════════════════════════════
+
+¿LISTO PARA SUBIR? 🚀
+
+Lee GUIA_GITHUB.md para instrucciones completas y detalladas
+
+════════════════════════════════════════════════════════════════════════════

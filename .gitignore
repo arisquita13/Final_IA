@@ -1,0 +1,86 @@
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === AMBIENTES VIRTUALES ===
+venv/
+env/
+ENV/
+.venv
+.env.local
+.env.*.local
+
+# === VARIABLES DE ENTORNO (SECRETAS) ===
+.env
+.env.production
+api_keys.txt
+
+# === IDE Y EDITORES ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.sublime-project
+.sublime-workspace
+
+# === ARCHIVOS GENERADOS ===
+logs/
+*.log
+*.txt.log
+tmp/
+temp/
+
+# === PDFs GENERADOS Y TEMPORALES ===
+*.pdf
+!README.md
+!INICIO_RAPIDO.md
+
+# === ARCHIVOS TEMPORALES DEL SISTEMA ===
+*.tmp
+*.bak
+*.backup
+.cache/
+
+# === BASES DE DATOS ===
+*.db
+*.sqlite
+*.sqlite3
+
+# === NODE (Si aplica) ===
+node_modules/
+npm-debug.log
+
+# === WINDOWS ===
+*.lnk
+Thumbs.db
+desktop.ini
+
+# === MACOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# === LINUX ===
+.directory
